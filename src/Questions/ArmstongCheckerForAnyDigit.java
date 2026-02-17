@@ -10,6 +10,16 @@ public class ArmstongCheckerForAnyDigit {
         int num = inp.nextInt();
         boolean ans = isArmstrong(num);
         System.out.println(ans);
+
+        //To find the the arsmstong number
+//        for (int i = 100 ;i <2000; i++)
+//        {
+//            if(isArmstrong(i)){
+//
+//                System.out.println(i);
+//            }
+//        }
+
     }
 
     static boolean isArmstrong(int num)
