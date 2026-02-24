@@ -14,9 +14,8 @@ public class FindMinimumElement {
         {
             return -1;
         }
-
-        int i =0;
-        int min = arr[i];
+        
+        int min = arr[0];
 
         for (int j = 0; j < arr.length; j++) {
             if(arr[j]<min)
