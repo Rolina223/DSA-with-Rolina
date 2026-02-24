@@ -14,7 +14,7 @@ public class FindMinimumElement {
         {
             return -1;
         }
-        
+
         int min = arr[0];
 
         for (int j = 0; j < arr.length; j++) {
