@@ -9,7 +9,7 @@ public class FirstIndLastIndCountConsecutiveSearching {
         int [] result = search(arr,-211);
 
         if(result[0]==-1){
-            System.out.println("Emeent not found");
+            System.out.println("Element not found");
         }
 
         System.out.println(" First index " + result[0]);
