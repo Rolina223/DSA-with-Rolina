@@ -6,7 +6,7 @@ public class CountEvenDigit {
 
         int arr [] ={0,1,2,32,-1321,111223,12,34,43,224};
 
-        System.out.println(count(arr));
+        System.out.println("Count of even number : " + count(arr));
 
     }
 
@@ -14,9 +14,6 @@ public class CountEvenDigit {
     {
         int count=0;
         for (int i = 0; i < arr.length; i++) {
-
-
-
             int tempCount =0;
             int temp = Math.abs(arr[i]);
 
