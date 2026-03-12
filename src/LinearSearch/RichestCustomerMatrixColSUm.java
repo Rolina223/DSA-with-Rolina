@@ -16,26 +16,24 @@ public class RichestCustomerMatrixColSUm {
         }
 
         int result = maxRowReturnTwo(arr);
-        System.out.println("Row number is " + (result+1));
+        System.out.println("Row number is " + (result + 1));
 
     }
 
 
-    static int maxRowReturnTwo(int arr[][])
-    {
+    static int maxRowReturnTwo(int arr[][]) {
 
         int maxRow = -1;
         int maxSum = Integer.MIN_VALUE;
         System.out.println("length " + arr.length);
         for (int row = 0; row < arr.length; row++) {
-            int sum =0;
-            for (int col = 0; col <arr[row].length; col++) {
+            int sum = 0;
+            for (int col = 0; col < arr[row].length; col++) {
                 sum += arr[row][col];
 
             }
             // System.out.println(" " + sum);
-            if(sum > maxSum)
-            {
+            if (sum > maxSum) {
                 maxSum = sum;
                 maxRow = row;
             }
@@ -45,22 +43,19 @@ public class RichestCustomerMatrixColSUm {
     }
 
 
-
-    static int[] maxRowReturn(int arr[][])
-    {
+    static int[] maxRowReturn(int arr[][]) {
 
         int[] maxRow = null;
         int maxSum = Integer.MIN_VALUE;
         System.out.println("length " + arr.length);
         for (int row = 0; row < arr.length; row++) {
-            int sum =0;
-            for (int col = 0; col <arr[row].length; col++) {
+            int sum = 0;
+            for (int col = 0; col < arr[row].length; col++) {
                 sum += arr[row][col];
 
             }
-           // System.out.println(" " + sum);
-            if(sum > maxSum)
-            {
+            // System.out.println(" " + sum);
+            if (sum > maxSum) {
                 maxSum = sum;
                 maxRow = arr[row];
             }
